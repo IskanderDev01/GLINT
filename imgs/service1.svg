@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95 86" width="95" height="86">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M0 0L95 0L95 86L0 86Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #ffffff } 
+		.shp1 { fill: none;stroke: #ffffff;stroke-dasharray: 3,1 } 
+		.shp2 { fill: #ffffff } 
+		.shp3 { fill: #62e6ac } 
+		.shp4 { fill: #000000 } 
+	</style>
+	<g id="Page 1" clip-path="url(#cp1)">
+		<path id="Path 1" class="shp0" d="M61 24.47L62.06 25.53" />
+		<path id="Path 2" class="shp1" d="M62.77 26.24L93.59 57.06" />
+		<path id="Path 3" class="shp0" d="M93.94 57.41L95 58.47" />
+		<path id="Path 4" class="shp2" d="M63 25.6L36.13 52.47L64.13 80.47L64.84 79.76L37.54 52.47L63 27.01" />
+		<path id="Path 5" class="shp3" d="M10.84 26.47L37 0.31L63.16 26.47L37 52.63L10.84 26.47Z" />
+		<path id="Path 6" fill-rule="evenodd" class="shp4" d="M63.87 26.47L37 53.34L10.13 26.47L37 -0.4L63.87 26.47ZM37 51.93L62.46 26.47L37 1.01L11.54 26.47L37 51.93ZM70.21 85.13L69.5 84.43L70.21 85.13Z" />
+		<path id="Path 7" class="shp2" d="M64.13 80.47L69.5 85.84L70.21 85.13L69.5 84.43L65.54 80.47L64.84 79.76L64.13 80.47Z" />
+		<path id="Path 8" class="shp3" d="M19.5 81.97C9.02 81.97 0.5 73.45 0.5 62.97C0.5 52.49 9.02 43.97 19.5 43.97C29.98 43.97 38.5 52.49 38.5 62.97C38.5 73.45 29.98 81.97 19.5 81.97Z" />
+		<path id="Path 9" fill-rule="evenodd" class="shp4" d="M39 62.97C39 73.74 30.27 82.47 19.5 82.47C8.73 82.47 0 73.74 0 62.97C0 52.2 8.73 43.47 19.5 43.47C30.27 43.47 39 52.2 39 62.97ZM1 62.97C1 73.17 9.3 81.47 19.5 81.47C29.7 81.47 38 73.17 38 62.97C38 52.77 29.7 44.47 19.5 44.47C9.3 44.47 1 52.77 1 62.97Z" />
+		<path id="Path 10" class="shp2" d="M72.98 36.13L54.58 55.35L53.85 56.11L25.24 86L24.52 85.31L53.36 55.19L53.72 54.81L72.26 35.44L72.98 36.13ZM54.43 69.72L53.57 69.22C55.87 65.2 55.97 60.22 53.85 56.11C53.79 55.96 53.71 55.82 53.63 55.68L53.36 55.19L53.72 54.81L54.15 54.57L54.5 55.19C54.53 55.24 54.56 55.3 54.58 55.35C57.01 59.81 56.96 65.3 54.43 69.72Z" />
+	</g>
+</svg>

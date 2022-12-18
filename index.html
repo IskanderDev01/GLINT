@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyLife</title>
+    <link rel="shortcut icon" href="imgs/site_logo.jpg" type="image/x-icon">
+    <!-- AOS(css) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- slider -->
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css"/>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+                    <!--****************************--- LOADER ---****************************-->
+
+    <div class="loader-main">
+        <svg class="filter" version="1.1">
+            <defs>
+                <filter id="gooeyness">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooeyness" />
+                    <feComposite in="SourceGraphic" in2="gooeyness" operator="atop" />
+                </filter>
+                </defs>
+            </svg>
+            <div class="dots">
+            <div class="dot mainDot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            </div>
+        </div>
+
+                        <!--****************************--- TOP ---****************************-->
+
+    <div class="top-button">
+        <a href="#" >
+            <i class='bx bx-up-arrow-alt'></i>
+        </a>
+    </div>
+
+                <!--****************************--- MENU ---****************************-->
+
+    <section class="menu-section">
+        <div class="container">
+            <div class="menu">
+                <div class="menu-first-part">
+                    <div class="menu-email">
+                        <i class='bx bx-envelope'></i>
+                    </div>
+                    <div class="menu-text-change">
+                        <p class="change-text1 active from-bottom">Fox News Anchor Bret Baier...</p>
+                        <p class="change-text2 from-bottom">Elementor Is Great WordPress...</p>
+                    </div>
+                    <div class="menu-next-prev">
+                        <i class='bx bx-left-arrow-alt'></i>
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </div>
+                </div>
+                <div class="menu-second-part">
+                    <div class="menu-icons">
+                        <a href="#" class="menu-icon"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="menu-icon"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#" class="menu-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#" class="menu-icon"><i class='bx bxl-instagram' ></i></a>
+
+                    </div>
+                    <div class="menu-contact-me">
+                        <p class="contact-text">Contact Me</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                <!--****************************--- HEADER -- PHONE ---****************************-->
+
+    <header class="header-phone">
+        <div class="container">
+            <div class="phone-header">
+                <div class="phone-header-logo">
+                    <img src="imgs/our_logo.png" alt="">
+                    <p class="logo_text">EasyLife</p>
+                </div>
+                <div class="phone-header-menubar">
+                    <i class='bx bx-menu' id="phone-menuBar"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="phone-hidden-menu">
+            <div class="p-h-icons">
+                <a href="#" class="p-h-icon"><i class='bx bxs-phone'></i></a>
+                <a href="#" class="p-h-icon"><i class='bx bx-map'></i></a>
+                <a href="#" class="p-h-icon" id="phone-close"><p>CLOSE</p></a>
+            </div>
+            <div class="p-h-pages">
+                <a href="#" class="p-h-page">Home</a>
+                <a href="#" class="p-h-page">About</a>
+                <a href="#" class="p-h-page">Service</a>
+                <a href="#" class="p-h-page">Works</a>
+                <a href="#" class="p-h-page">Pages</a>
+            </div>
+        </div>
+    </header>
+
+                <!--****************************--- HEADER -- BIG ---****************************-->
+
+    <header class="header-big">
+        <div class="container">
+            <div class="big-header">
+                <div class="big-header-logo">
+                    <img src="imgs/our_logo.png" alt="">
+                    <p class="logo_text">EasyLife</p>
+                </div>
+                <div class="big-header-elements">
+                    <a href="#" class="b-h-element" id="home">Home
+                        <span class="element-bottom"></span>
+                        <div class="home-addition">
+                            <p class="add">Home Page 1</p>
+                            <p class="add">Home Page 2</p>
+                        </div>
+                    </a>
+                    <a href="#" class="b-h-element">About
+                        <span class="element-bottom"></span>
+                    </a>
+                    <a href="#" class="b-h-element">Service
+                        <span class="element-bottom"></span>
+                    </a>
+                    <a href="#" class="b-h-element">Works
+                        <span class="element-bottom"></span>
+                    </a>
+                    <a href="#" class="b-h-element" id="pages">Pages
+                        <span class="element-bottom"></span>
+                        <div class="pages-addition">
+                            <p class="add">About</p>
+                            <p class="add">Works</p>
+                            <p class="add">Service</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="big-header-search">
+                    <i class='bx bx-search'></i>
+                    <input type="search" placeholder="Search">
+                </div>
+                <div class="big-menuBar">
+                    <i class='bx bx-menu' id="big-menuTab"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="big-hidden-menu">
+            <div class="b-h-menu">
+                <div class="b-h-menu-first">
+                    <div class="hitten_menu_logo_part">
+                        <img src="imgs/our_logo.png" alt="">
+                        <p class="logo_text">EasyLife</p>
+                    </div>
+                    <div class="big-close"><i class='bx bx-x'></i></div>
+                </div>
+                <div class="b-h-menu-second">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci commodi aliquid officia enim, dolor incidunt magnam. Placeat molestiae tenetur sint laboriosam odit illo explicabo voluptate, eum rerum? Quo doloremque quam dolore corrupti possimus laboriosam culpa. Saepe doloremque libero quo, rerum ut impedit delectus aperiam, temporibus et reprehenderit nisi doloribus.</p>
+                </div>
+                <div class="b-h-menu-third">
+                    <a href="#" class="b-h-icons"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="b-h-icons"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#" class="b-h-icons"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" class="b-h-icons"><i class='bx bxl-instagram' ></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+            <!-- /************************************--- HOME ---**************************************/ -->
+
+    <section class="home-section">
+        <div class="container">
+            <div class="home-main open" id="home-one">
+                <div class="home-text-part">
+                    <p class="home-title">
+                        <span>AUTOMATION</span> CHANGES OUR LIVES FOR THE BETTER
+                    </p>
+                    <p class="home-text2">
+                        Together we the people achieve more than any single person could ever do alone.
+                    </p>
+                    <a href="#" class="home-button">
+                        <p>GETTING STARTED</p>
+                        <i class='bx bx-chevron-right'></i>
+                    </a>
+                </div>
+                <div class="home-img-part">
+                    <img src="./imgs/author1.png" alt="">
+                </div>
+            </div>
+
+            <div class="home-main" id="home-two">
+                <div class="home-text-part">
+                    <p class="home-title">
+                        <span>AUTOMATION</span> PROVIDES ACCURACY, SPEED, ACCESSIBILITY AND CONVENIENCE
+                    </p>
+                    <p class="home-text2">
+                        Together we the people achieve more than any single person could ever do alone.
+                    </p>
+                    <a href="#" class="home-button">
+                        <p>GETTING STARTED</p>
+                        <i class='bx bx-chevron-right'></i>
+                    </a>
+                </div>
+                <div class="home-img-part">
+                    <img src="./imgs/author2.png" alt="">
+                </div>
+            </div>
+
+            <div class="home-main" id="home-three">
+                <div class="home-text-part">
+                    <p class="home-title">
+                        <span>AUTOMATION</span> SAVES OUR PRECIOS TIME FOR SOMETHING MORE IMPORTANT
+                    </p>
+                    <p class="home-text2">
+                        Together we the people achieve more than any single person could ever do alone.
+                    </p>
+                    <a href="#" class="home-button">
+                        <p>GETTING STARTED</p>
+                        <i class='bx bx-chevron-right'></i>
+                    </a>
+                </div>
+                <div class="home-img-part">
+                    <img src="./imgs/author1.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="home-right-buttons">
+            <div class="home-right-button right-button-open">01</div>
+            <div class="home-right-button">02</div>
+            <div class="home-right-button">03</div>
+        </div>
+    </section>
+
+            <!-- /************************************--- VIDEO -- PART ---**************************************/ -->
+
+    <section class="video-section">
+        <div class="container">
+            <div class="video-main">
+                <div class="video-img-part" 
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-duration="1500"
+                    data-aos-offset="0"
+                >
+                    <div class="video-img-icon">
+                        <a href="#"><i class="fas fa-play"></i></a>
+                    </div>
+                    <div class="add-points">
+                        <img src="./imgs/points-bg.svg" alt="">
+                    </div>  
+                </div>
+                <div class="video-text-part"
+                    data-aos="fade-zoom-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-duration="1500"
+                    data-aos-offset="0"
+                >
+                    <p class="video-title">
+                        Desire is the condiment That Gives <span class="green-text">Success</span>
+                    </p>
+                    <p class="video-discription">
+                        Every day the world changes for the better and appears new technologies for the convenience of living people. And we EasyLife also make a great contribution to our bright future.
+                    </p>
+                    <a href="#" class="home-button" id="video-button">
+                        <p>Read More</p>
+                        <i class='bx bx-chevron-right'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- /************************************--- MY CAREER -- PART ---**************************************/ -->
+
+    <section class="back-section">
+        <div class="container">
+            <div class="main-back">
+                <div class="back-title">
+                    <p class="back-text1">OUR EXPERIENCE</p>
+                    <p class="back-text2">EXPERIENCE AND <span class="green-text">SKILL</span></p>
+                </div>
+                <p class="back-fon">OUR CARRER</p>
+                <div class="back-discription">
+                    <p class="back-lorem">
+                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit, Error Qui Enim Sit Ex Provident
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+            <!-- /************************************--- FOUR CARDS ---**************************************/ -->
+
+    <section class="cards-section">
+        <div class="container">
+            <div class="cards-main">
+                <div class="card" data-aos="fade-up" data-aos-duration="1500">
+                    <p class="card-title">2022 - 2023 (Start)</p>
+                    <p class="card-text">PDP University.</p>
+                    <p class="card-discription">We have started from scratch. Our company did partial, basic automations</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1500">
+                    <p class="card-title">2023 - 2024 (Process)</p>
+                    <p class="card-text">Own small company.</p>
+                    <p class="card-discription">We have started to improve our knowledge in AI and create new logical systems</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1500">
+                    <p class="card-title">2024 - 2026 (Process)</p>
+                    <p class="card-text">Extended company</p>
+                    <p class="card-discription">EasyLife has expanded, recruited new employees and began to explore other areas of IT</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="1500">
+                    <p class="card-title">2027 (Now)</p>
+                    <p class="card-text">Leader in our field.</p>
+                    <p class="card-discription">We do full automation of business, the most complex logical structures</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- /************************************--- PERCENT ---**************************************/ -->  
+
+    <section class="percent-section">
+        <div class="container">
+            <div class="percent-main">
+
+                    <div class="diagramm-box">
+                        <div class="diagramm diagramm-one">
+                            <div class="parcent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>100%</h2>
+                                </div>
+                            </div>
+                            <h3 class="text">Artificial Intelligence</h3>
+                        </div>
+                    </div> 
+                    <div class="diagramm-box">
+                        <div class="diagramm diagramm-two">
+                            <div class="parcent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>50%</h2>
+                                </div>
+                            </div>
+                            <h3 class="text">UI & UX DESIGN</h3>
+                        </div>
+                    </div> 
+                    <div class="diagramm-box">
+                        <div class="diagramm diagramm-three">
+                            <div class="parcent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>70%</h2>
+                                </div>
+                            </div>
+                            <h3 class="text">WEB Developing</h3>
+                        </div>
+                    </div> 
+                    <div class="diagramm-box">
+                        <div class="diagramm diagramm-four">
+                            <div class="parcent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>60%</h2>
+                                </div>
+                            </div>
+                            <h3 class="text">App Developing</h3>
+                        </div>
+                    </div>                
+               
+            </div>
+        </div>
+    </section>
+
+            <!-- /************************************--- SERVICE ---**************************************/ -->  
+
+    <section class="back-section">
+        <div class="container">
+            <div class="main-back">
+                <div class="back-title">
+                    <p class="back-text1">WHAT WE DO</p>
+                    <p class="back-text2">SERVICES AND <span class="green-text">SOLUTIONS</span></p>
+                </div>
+                <p class="back-fon">SERVICE</p>
+                <div class="back-discription">
+                    <p class="back-lorem">
+                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit, Error Qui Enim Sit Ex Provident
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+            <!-- /************************************--- THREE SLIDES ---**************************************/ -->  
+
+    <section class="slides-section">
+        <div class="container">
+            <div class="slides-main">
+                <div class="slide"
+                    data-aos-duration="1500"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                >
+                    <img src="./imgs/service1.svg" alt="">
+                    <p class="slide-title">DESIGN PRINCIPALES</p>
+                    <p class="slide-discription">
+                        Comfortable desing, correct positioning, clear structures and clear writing
+                    </p>
+                </div>
+                <div class="slide" id="slide-middle"
+                    data-aos-duration="1500"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                >
+                    <img src="./imgs/service2.svg" alt="">
+                    <p class="slide-title" id="middle-text">AUTOMATION</p>
+                    <p class="slide-discription" id="middle-text">
+                        Finding logical constructs, replacing conventional routines, saving time
+                    </p>
+                </div>
+                <div class="slide"
+                    data-aos-duration="1500"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"
+                >
+                    <img src="./imgs/service3.svg" alt="">
+                    <p class="slide-title">TOOLS OF USE</p>
+                    <p class="slide-discription">
+                        Individual Websites, Android/IOS apps, applications for laptops and desktops
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- /************************************--- PROJECT CARUSEL ---**************************************/ -->  
+
+    <section class="project-carusel">
+        <!-- project -->
+        <section class="back-section">
+            <div class="container">
+                <div class="main-back">
+                    <div class="back-title">
+                        <p class="back-text1">WORKING PROCESS</p>
+                        <p class="back-text2">LASTET WORKING <span class="green-text">PROJECT</span></p>
+                    </div>
+                    <p class="back-fon">PROJECT</p>
+                    <div class="back-discription">
+                        <p class="back-lorem">
+                            Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit, Error Qui Enim Sit Ex Provident
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- first__carusel -->
+
+        <section class="carusel">
+            <div class="container">
+                <div class="carusel-main">
+                    <img src="./imgs/project1.png" alt="project-photo">
+                    <img src="./imgs/project2.png" alt="project-photo">
+                    <img src="./imgs/project3.png" alt="project-photo">
+                    <img src="./imgs/project4.png" alt="project-photo">
+                </div>
+                <div class="carusel-buttons">
+                    <button class="prevvvx">
+                        <i class='bx bx-chevron-left'></i>
+                    </button>
+                    <button class="nextttx">
+                        <i class='bx bx-chevron-right'></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+            <!-- /************************************--- TEST COMMENTS ---**************************************/ -->  
+
+    <section class="test-comment">
+        <!-- test -->
+        <section class="back-section" id="test-section">
+            <div class="container">
+                <div class="main-back">
+                    <div class="back-title">
+                        <p class="back-text1">OUR TEAM</p>
+                        <p class="back-text2">About our <span class="green-text"> Employees</span></p>
+                    </div>
+                    <p class="back-fon">EasyLife</p>
+                    <div class="back-discription">
+                        <p class="back-lorem">
+                            Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit, Error Qui Enim Sit Ex Provident
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- comment -->
+    
+        <section class="carusel">
+            <div class="container">
+                <div class="carusel-comment">
+                    <div>
+                        
+                        <div class="comment">
+                            <div class="comment-img-part">
+                                <img src="./imgs/test2.jpg" alt="human">
+                            </div>
+                            <div class="comment-text-part">
+                                <img src="./imgs/comments.png" alt="">
+                                <p class="comment-word">
+                                    CEO
+                                </p>
+                                <p class="comment-author">
+                                    Alexandr
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        
+                        <div class="comment">
+                            <div class="comment-img-part">
+                                <img src="./imgs/test3.jpg" alt="human">
+                            </div>
+                            <div class="comment-text-part">
+                                <img src="./imgs/comments.png" alt="">
+                                <p class="comment-word">
+                                    Team Leader
+                                </p>
+                                <p class="comment-author">
+                                    Mia
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        
+                        <div class="comment">
+                            <div class="comment-img-part">
+                                <img src="./imgs/testimonial1.jpg" alt="human">
+                            </div>
+                            <div class="comment-text-part">
+                                <img src="./imgs/comments.png" alt="">
+                                <p class="comment-word">
+                                    CEO
+                                </p>
+                                <p class="comment-author">
+                                    Dmitriy
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                    
+                        <div class="comment">
+                            <div class="comment-img-part">
+                                <img src="./imgs/author1.png" alt="human">
+                            </div>
+                            <div class="comment-text-part">
+                                <img src="./imgs/comments.png" alt="">
+                                <p class="comment-word">
+                                    Analyst
+                                </p>
+                                <p class="comment-author">
+                                    Alex
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        
+                        <div class="comment">
+                            <div class="comment-img-part">
+                                <img src="./imgs/author2.png" alt="human">
+                            </div>
+                            <div class="comment-text-part">
+                                <img src="./imgs/comments.png" alt="">
+                                <p class="comment-word">
+                                    Designer
+                                </p>
+                                <p class="comment-author">
+                                    Maksim
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="carusel-buttons" id="carusel-buttons-two">
+                    <button class="prevvv">
+                        <i class='bx bx-chevron-left'></i>
+                    </button>
+                    <button class="nexttt">
+                        <i class='bx bx-chevron-right'></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </section>
+
+            <!-- /************************************--- PAYMENT ---**************************************/ -->  
+
+    <section class="back-section" id="test-section">
+        <div class="container">
+            <div class="main-back">
+                <div class="back-title">
+                    <p class="back-text1">RECENT NEWS DESK</p>
+                    <p class="back-text2">LASTET NEWS & <span class="green-text">BLOGS</span></p>
+                </div>
+                <p class="back-fon">BLOGS</p>
+                <div class="back-discription">
+                    <p class="back-lorem">
+                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit, Error Qui Enim Sit Ex Provident
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+            <!-- /************************************--- CARUSEL(second) ---**************************************/ -->  
+
+    <section class="carusel" id="second-carusel-slider">
+        <div class="container">
+            <div class="carusel-second-slider">
+                
+                <div>
+                    <div class="carusel-second">
+                        <img src="./imgs/team__1.png" alt="">
+                        <div class="text-part">
+                            <p class="data">January 28, 2021</p>
+                            <p class="addiction">
+                                Addiction When Gambling Becomes...
+                            </p>
+                            <div class="arrow-end">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                <p>Read More</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="carusel-second">
+                        <img src="./imgs/team__2.png" alt="">
+                        <div class="text-part">
+                            <p class="data">January 29, 2021</p>
+                            <p class="addiction">
+                                Addiction When Gambling Becomes...
+                            </p>
+                            <div class="arrow-end">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                <p>Read More</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="carusel-second">
+                        <img src="./imgs/team__3.png" alt="">
+                        <div class="text-part">
+                            <p class="data">January 30, 2021</p>
+                            <p class="addiction">
+                                Addiction When Gambling Becomes...
+                            </p>
+                            <div class="arrow-end">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                <p>Read More</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="carusel-second">
+                        <img src="./imgs/team__2.png" alt="">
+                        <div class="text-part">
+                            <p class="data">January 31, 2021</p>
+                            <p class="addiction">
+                                Addiction When Gambling Becomes...
+                            </p>
+                            <div class="arrow-end">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                <p>Read More</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="carusel-buttons">
+                <button class="prevvv3">
+                    <i class='bx bx-chevron-left'></i>
+                </button>
+                <button class="nexttt3">
+                    <i class='bx bx-chevron-right'></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+            <!-- /************************************--- REGISTRATION ---**************************************/ -->  
+
+    <section class="registration-section">
+        <div class="container">
+            <div class="signUp-main">
+                <p class="newsletter">Contact</p>
+                <p class="signUp-title">Leave a request <span class="green-text"> </span></p>
+                <div class="email-part">
+                    <input type="email" placeholder="Enter Your Email">
+                    <a href="#" class="payment-btn" id="signUp-btn">
+                        <p> SEND </p>
+                        <i class='bx bx-chevron-right'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- /************************************--- CARUSEL(last) ---**************************************/ -->  
+
+    <section class="carusel" id="last-carusel">
+        <div class="container">
+            <div class="carusel-last">
+                
+                <div class="last-img">
+                    <img src="./imgs/res1.png" alt="">
+                </div>
+                <div class="last-img">
+                    <img src="./imgs/res2.png" alt="">
+                </div>
+                <div class="last-img">
+                    <img src="./imgs/res3.png" alt="">
+                </div>
+                <div class="last-img">
+                    <img src="./imgs/res4.png" alt="">
+                </div>
+                <div class="last-img">
+                    <img src="./imgs/res3.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="end">
+                <p class="end-text">
+                    COPYRIGHT © 2021 BY <span class="green-text">QUOMODOTHEME</span>  ALL RIGHT RESERVED
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- slick slider -->
+    <script src="./slick-1.8.1/slick/slick.min.js"></script>
+    <!-- AOS(script) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- script -->
+    <script src="service.js"></script>
+</body>
+</html>
